@@ -39,17 +39,39 @@ img {
 article {
   position: relative; }
 
+.type {
+  font-size: 1em;
+  color: #D91E18;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  background: black; }
+  .type p {
+    margin: 0;
+    padding: 3px; }
+
 .h1-text {
-  font-size: 2em;
+  font-size: 1.6em;
   color: #ECF0F1;
   width: 100%;
   position: absolute;
   bottom: 0;
   text-align: center; }
   .h1-text p {
-    background-color: rgba(51, 51, 51, 0.5); }
+    text-shadow: black 2px 2px 2px;
+    background: #1d1d1d; }
 
+.news h3 {
+  letter-spacing: .05em;
+  margin-bottom: 0px; }
 .news .ul {
-  text-align: center; }
+  padding: 5%;
+  text-align: left; }
+.news .ul li {
+  border-bottom: 1px solid black; }
+
+span.credit {
+  font-size: 12px; }
 
 /*# sourceMappingURL=output.css.map */
