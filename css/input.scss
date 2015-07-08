@@ -1,0 +1,80 @@
+/*
+  Variables 
+           */
+$link-color: #ECF0F1;
+$background: #D2D7D3;
+$gray: #333;
+$font: 'Oswald', sans-serif;
+
+body {
+  background-color: $background;
+  font-family: $font;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  background-color: $background;  
+
+  img {
+   width: 80%;
+   display: block;
+   margin: 0 auto;
+}
+}
+
+.ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+nav {
+  background-color: $gray;
+  margin: 0 auto 5px;
+
+  li {
+    display: inline-block;
+    font-size: 1.2em;
+    //line-height: 1.7em;
+  }
+
+  li a {
+    color: $link-color;
+    text-decoration: none;
+    padding: 0 5px;
+  }
+
+  li a:hover {
+    background-color: red;
+}
+}
+
+
+img {
+    width: 100%;
+}
+
+article {
+  position: relative;
+}
+
+.h1-text {
+  font-size: 2em;
+  color: $link-color;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+
+  p {
+    background-color: rgba(51, 51, 51, 0.5);
+  }
+}
+
+.news {
+
+  .ul {
+    text-align: center;
+  }
+}
